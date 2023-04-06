@@ -1,0 +1,10 @@
+---
+date: 2011-01-02 00:00:00 +0900
+categories: "study"
+name: "신문읽기 스터디"
+summary: "사설을 분석하고 요약"
+realization: y
+link: ""
+member: 4
+duration: 6
+---

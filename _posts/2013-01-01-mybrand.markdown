@@ -1,0 +1,10 @@
+---
+date: 2013-01-01 00:00:00 +0900
+categories: "study"
+name: "퍼스널브랜딩 스터디"
+summary: "나, 자신을 브랜딩"
+realization: y
+link: ""
+member: 6
+duration: 2
+---

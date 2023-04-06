@@ -1,0 +1,10 @@
+---
+date: 2018-01-01 00:00:00 +0900
+categories: "project"
+name: "Loviary"
+summary: "장소로 적는 데이트 다이어리"
+realization: y
+link: ""
+member: 4
+duration: 6
+---

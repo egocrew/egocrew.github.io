@@ -1,0 +1,10 @@
+---
+date: 2013-01-02 00:00:00 +0900
+categories: "study"
+name: "편집 디자인 스터디"
+summary: "주간 미션 편집 디자인"
+realization: y
+link: ""
+member: 6
+duration: 3
+---

@@ -1,0 +1,10 @@
+---
+date: 2020-01-02 00:00:00 +0900
+categories: "project"
+name: "골라"
+summary: "벌칙자나 팀원을 배정해주는 미니 게임"
+realization: y
+link: "http://gola.egoist.im/"
+member: 2
+duration: 2
+---

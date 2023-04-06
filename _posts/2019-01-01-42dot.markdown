@@ -1,0 +1,10 @@
+---
+date: 2019-01-01 00:00:00 +0900
+categories: "project"
+name: "자기계발 페이스북 그룹"
+summary: "사색, 이득이 되다"
+realization: n
+link: ""
+member: 2
+duration: 1
+---

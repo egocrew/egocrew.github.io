@@ -1,0 +1,10 @@
+---
+date: 2021-01-04 00:00:00 +0900
+categories: "project"
+name: "EGO SPACE"
+summary: "업무와 회의가 연동되는 협업 툴"
+realization: y
+link: "https://space.ego.so"
+member: 3
+duration: 1
+---

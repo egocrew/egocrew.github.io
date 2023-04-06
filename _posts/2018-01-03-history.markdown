@@ -1,0 +1,10 @@
+---
+date: 2018-01-02 00:00:00 +0900
+categories: "project"
+name: "History"
+summary: "약속을 기록해 관리하는 가계부"
+realization: y
+link: ""
+member: 5
+duration: 15
+---
