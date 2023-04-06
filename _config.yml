@@ -51,3 +51,24 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Theme Settings
+
+# # Your site's logo. Will be shown on the left top of your page.
+# logo: /img/logo.svg
+# # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
+# img_prefix: https://your-img-cdn.com
+# # The RSS link of your blog.
+# rss: "/feed.xml"
+
+theme_setting:
+  blog_page: "activity.markdown"
+  about_page: "index.markdown"
+  nav_pages:
+    - "index.markdown"
+    - "activity.markdown"
+  code: true # Code highlight.
+  math: true # Mathjax
+  mermaid: true # Mermaid
+  lang:
+   category_all: All
+   blog_title: List
