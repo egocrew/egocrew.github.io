@@ -20,9 +20,6 @@ layout: default
         color:var(--light-gray);
         margin-left: 0px;
     }
-    .archive__url{
-        border-bottom: 1px dashed var(--light)
-    }
     .post__list_side {
         display: flex;
         align-items: center;
@@ -31,6 +28,26 @@ layout: default
         vertical-align: middle;
         font-size:0.8rem;
         color:var(--gray-light);
+    }
+    .post__list_side:last-child{
+        justify-content: right;
+        color:var(--light-gray);
+    }
+    .post__list_side a,
+    .post__list_side a:active,
+    .post__list_side a:hover,
+    .post__list_side a:visited{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding: 0;
+        color:var(--light-gray);
+    }
+    a .archive__url,
+    a:active .archive__url,
+    a:hover .archive__url,
+    a:visited .archive__url{
+        border-bottom: 1px dashed var(--light);
     }
     .post__list_center {
         display: flex;
@@ -44,17 +61,7 @@ layout: default
         width: 100%;
         margin-bottom: 20px;
     }
-    .post__list_item a,
-    .post__list_item a:active,
-    .post__list_item a:hover,
-    .post__list_item a:visited{
-        display: flex;
-        align-items: center;
-        justify-content: right;
-        width: 100%;
-        padding: 0;
-        color:var(--light-gray);
-    }
+
 
     li.post__list_item{
         opacity: 1;
@@ -98,10 +105,14 @@ layout: default
                     </div>
 
                     <div class="post__list_side">
-                        {% if post.link != "" %}
-                        <a href="{{ post.link }}">
-                            <span class="archive__url">DEMO</span>
-                        </a>
+                        {% if post.realization == "y" and post.link != "" %}
+                            <a href="{{ post.link }}">
+                                <span class="archive__url">데모</span>
+                            </a>
+                        {% elsif post.realization == "y" %}
+                            <span class="archive__url">실현</span>
+                        {% else %}
+                            <span class="archive__url">도전</span>
                         {% endif %}
                     </div>
 
