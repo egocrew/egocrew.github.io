@@ -2,7 +2,7 @@
 date: 2023-01-01 00:00:00 +0900
 categories: "project"
 name: "EGO In Site"
-summary: "에고 크루 인트라넷"
+summary: "크루의 모든 활동을 한곳에서"
 realization: n
 link: ""
 member: 4
