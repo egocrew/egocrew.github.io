@@ -7,8 +7,8 @@ title: Who we are
 ---
 
 <div style="font-size: 48pt; font-weight:bold; ">Who we are</div>
-<div style="font-size: 16pt;">에고 크루는 당신의 <span style="padding: 4px; background:  var(--lighter);">아이디어가 실현</span> 될 수 있도록 하는</div>
-<div style="font-size: 16pt;">'프로젝트 네트워크'입니다.</div>
+<div style="font-size: 16pt;">에고 크루는 당신의 <span style="padding: 4px; background:  var(--lighter);">아이디어가 실현</span> 될 수 있도록</div>
+<div style="font-size: 16pt;">함께 도전하는 '프로젝트 네트워크'입니다.</div>
 
 <br>
 <br>
