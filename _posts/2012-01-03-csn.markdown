@@ -7,7 +7,7 @@ project:
   subject: "창착자 커뮤니티"
   summary: "작품을 공유하고 피드백을 주고받는 창작자들의 소통 공간 제공하는 커뮤니티를 제작했습니다."
   duration: 3
-  realization: y
+  realization: n
   link: ""
 
 team:

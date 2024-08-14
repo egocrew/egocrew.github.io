@@ -7,7 +7,7 @@ project:
   subject: "문화 생활 다이어리"
   summary: "영화, 공연, 전시, 도서, 음악 등 다양한 문화 생활을 기록하는 다이어리 서비스를 제작했습니다."
   duration: 1
-  realization: y
+  realization: n
   link: ""
 
 team:

@@ -7,7 +7,7 @@ project:
   subject: "맞춤형 협업 도구"
   summary: "크루의 모든 활동을 통합 관리할 수 있는 웹 사이트를 제작했습니다."
   duration: 2
-  realization: y
+  realization: n
   link: ""
 
 team:

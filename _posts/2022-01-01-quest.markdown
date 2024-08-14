@@ -1,0 +1,17 @@
+---
+date: "2022-01-01 00:00:00 +0900"
+category: "project"
+name: "Kuest"
+
+project:
+  subject: "목표 관리 서비스"
+  summary: "메인 퀘스트와 서브 퀘스트로 목표를 세분화하여 현실적인 계획 수립을 돕는 생산성 향상 서비스를 제작했습니다."
+  duration: 4
+  realization: n
+  link: ""
+
+team:
+  name: "DNA"
+  member: 4
+  logo: "/assets/img/EGO DNA.png"
+---

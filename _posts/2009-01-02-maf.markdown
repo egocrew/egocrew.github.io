@@ -7,7 +7,7 @@ project:
   subject: "그룹 커뮤니티"
   summary: "초대된 사람만 그룹에 참여할 수 있는 비공개 커뮤니티를 제작했습니다."
   duration: 2
-  realization: y
+  realization: n
   link: ""
 
 team:

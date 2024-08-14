@@ -7,7 +7,7 @@ project:
   subject: "개인 맞춤 매거진"
   summary: "영단어 회화, 3컷 만화 등 관심 뉴스 및 콘텐츠를 제공하는 맞춤형 매거진 서비스를 제작했습니다."
   duration: 2
-  realization: y
+  realization: n
   link: ""
 
 team:
