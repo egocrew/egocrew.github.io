@@ -4,21 +4,47 @@ layout: default
 
 {% include header.html %}
 <style>
-    .archive__member{
-        margin-left: 10px;
+    .post__list_title{
+        text-align: center;
+        font-weight: normal;
+        margin: 20px 0;
+    }
+    .post__list_title:first-of-type{
+        margin-top:46px;
+    }
+    .archive__member {
+        font-weight: normal;
+        padding-right: 12px;
+        border-right: 2px solid var(--light);
+    }
+
+    .archive__duration {
+        margin-left: 12px;
+        font-weight: normal;
+    }
+
+    .archive__summary {
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+    .archive__subject{
 
     }
-    .archive__duration{
-        padding-right:10px;
-        border-right: 1px solid var(--light);
+    .archive__name {
+        color: var(--gray-light);
+        line-height: 2.8rem;
+        vertical-align: bottom;
+        margin-left: 1px;
+
     }
-    .archive__summary{
-        font-size:1.2rem;
+
+    .archive__team_name{
+        color: var(--dark);
     }
-    .archive__name{
-        font-size:1rem;
-        color:var(--light-gray);
-        margin-left: 0px;
+    .archive__team_logo{
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
     }
     .post__list_side {
         display: flex;
@@ -26,48 +52,59 @@ layout: default
         width: 25%;
         height: 30px;
         vertical-align: middle;
-        font-size:0.8rem;
-        color:var(--gray-light);
     }
-    .post__list_side:last-child{
+
+    .post__list_side:last-child {
         justify-content: right;
-        color:var(--light-gray);
+        color: var(--dark);
+        font-weight: normal;
+
     }
+
     .post__list_side a,
     .post__list_side a:active,
     .post__list_side a:hover,
-    .post__list_side a:visited{
+    .post__list_side a:visited {
         display: flex;
         align-items: center;
         justify-content: right;
         padding: 0;
-        color:var(--light-gray);
+        color: var(--dark);
     }
+
+    .archive__url{
+        padding: 4px 0;
+    }
+
     a .archive__url,
     a:active .archive__url,
     a:hover .archive__url,
-    a:visited .archive__url{
-        border-bottom: 1px dashed var(--light);
+    a:visited .archive__url {
+        border-bottom: 2px solid var(--light);
     }
+
     .post__list_center {
         display: flex;
         align-items: center;
+        justify-content: center;
         width: 50%;
         vertical-align: middle;
-
+        color: var(--gray-light);
     }
-    .post__list_item > div{
+
+    .post__list_item > div {
         display: inline-flex;
         width: 100%;
-        margin-bottom: 20px;
     }
 
 
-    li.post__list_item{
+    li.post__list_item {
         opacity: 1;
         transition: opacity 0.25s ease-in;
+        margin-bottom: 100px;
     }
-    li.post__list_item.fade{
+
+    li.post__list_item.fade {
         opacity: 0.5;
         transition: opacity 0.25s ease-in;
     }
@@ -77,42 +114,57 @@ layout: default
     {%- if site.status -%}
     {%- include status.html -%}
     {%- endif -%}
-    {%- if site.categories.size > 0 -%}
-    <nav class="blog__categories">
-        <a href="#all" data-category="all" class="category active nav-link">{{ site.theme_setting.lang.category_all | default: "All" }}</a>
-        {%- for category in site.categories %}
-        <a href="#{{ category[0] }}" class="category nav-link" data-category="{{ category[0] }}">{{ category[0] }}</a>
-        {%- endfor %}
-    </nav>
-    {%- endif -%}
+<!--    {%- if site.categories.size > 0 -%}-->
+<!--    <nav class="blog__categories">-->
+<!--        <a href="#all" data-category="all" class="category active nav-link">{{ site.theme_setting.lang.category_all |-->
+<!--            default: "All" }}</a>-->
+<!--        {%- for category in site.categories %}-->
+<!--        <a href="#{{ category[0] }}" class="category nav-link" data-category="{{ category[0] }}">{{ category[0] }}</a>-->
+<!--        {%- endfor %}-->
+<!--    </nav>-->
+<!--    {%- endif -%}-->
     <div class="post__list archive__list">
         {%- assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
         {%- for year in years %}
-        <h3 class="post__list_title">{{ year.name }}</h3>
+        <h1 class="post__list_title">{{ year.name }}</h1>
         {%- assign posts = year.items %}
+
         <ul>
             {%- for post in posts %}
-            <li class="post__list_item" data-category="{{ post.categories | join: ';' }}" {% if post.img %}data-img="{{ post.img | img_url_prefix }}"{% endif %}>
+            <li class="post__list_item" data-category="{{ post.categories | join: ';' }}" {% if post.img
+                %}data-img="{{ post.img | img_url_prefix }}" {% endif %}>
+                <div>
+                    <h2 class="archive__subject">{{ post.project.subject }}</h2>
+                    <h5 class="archive__name">: {{ post.name }}</h5>
+                </div>
+                <div>
+                    <h5 class="archive__summary">{{ post.project.summary }}</h5>
+
+                </div>
                 <div>
                     <div class="post__list_side">
-                        <span class="archive__duration">{{ post.duration }}개월</span>
-                        <span class="archive__member">{{ post.member }}명</span>
+                        {% if post.team.logo != "" %}
+                        <img src="{{ post.team.logo }}" alt="{{ post.team.name }} logo" class="archive__team_logo">
+                        {% endif %}
+                        <h5 class="archive__team_name"> {{ post.team.name }}</h5>
+
                     </div>
 
                     <div class="post__list_center">
-                        <span class="archive__summary">{{ post.summary }}</span>
-                        <span class="archive__name">: {{ post.name }}</span>
+                        <h5 class="archive__member">{{ post.team.member }}명</h5>
+                        <h5 class="archive__duration">{{ post.project.duration }}개월</h5>
+
                     </div>
 
                     <div class="post__list_side">
-                        {% if post.realization == "y" and post.link != "" %}
-                            <a href="{{ post.link }}">
-                                <span class="archive__url">데모</span>
+                        {% if post.project.realization == "y" and post.project.link != "" %}
+                            <a href="{{ post.project.link }}">
+                                <h5 class="archive__url">🔗 데모</h5>
                             </a>
-                        {% elsif post.realization == "y" %}
-                            <span class="archive__url">실현</span>
+                        {% elsif post.project.realization == "y" %}
+                            <h5 class="archive__url">🚀 실현</h5>
                         {% else %}
-                            <span class="archive__url">도전</span>
+                            <h5 class="archive__url">🔥 도전</h5>
                         {% endif %}
                     </div>
 
