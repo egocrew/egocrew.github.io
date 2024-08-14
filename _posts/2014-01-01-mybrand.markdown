@@ -1,13 +1,17 @@
 ---
-date: 2014-01-01 00:00:00 +0900
-categories: "study",
-name: "나, 자신을 브랜딩",
-subject: "브랜딩 스터디",
-summary: "자신의 강점과 약점을 분석하고 퍼스널브랜딩 전략을 학습하는 스터디를 진행했습니다.",
-realization: y,
-link: "",
-member: 6,
-duration: 2,
-team-name: "ARKA TEAM 2nd",
-team-img: ""
+date: "2014-01-01 00:00:00 +0900"
+category: "study"
+name: "나, 자신을 브랜딩"
+
+project:
+  subject: "브랜딩 스터디"
+  summary: "자신의 강점과 약점을 분석하고 퍼스널브랜딩 전략을 학습하는 스터디를 진행했습니다."
+  duration: 2
+  realization: y
+  link: ""
+
+team:
+  name: "ARKA TEAM 2nd"
+  member: 6
+  logo: ""
 ---

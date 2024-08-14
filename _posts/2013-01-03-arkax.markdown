@@ -1,13 +1,17 @@
 ---
-date: 2013-01-03 00:00:00 +0900
-categories: "project",
-name: "ARKA X",
-subject: "컨셉 스마트폰 디자인",
-summary: "후각 모듈을 통해 사용자 감정에 따라 맞춤 향기를 제공하는 스마트폰 디자인을 출품했습니다.",
-realization: y,
-link: "",
-member: 4,
-duration: 2,
-team-name: "ARKA TEAM 2nd",
-team-img: ""
+date: "2013-01-03 00:00:00 +0900"
+category: "project"
+name: "ARKA X"
+
+project:
+  subject: "스마트폰 컨셉 디자인"
+  summary: "후각 모듈을 통해 사용자 감정에 따라 맞춤 향기를 제공하는 스마트폰 디자인을 출품했습니다."
+  duration: 2
+  realization: y
+  link: ""
+
+team:
+  name: "ARKA TEAM 2nd"
+  member: 4
+  logo: ""
 ---

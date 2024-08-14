@@ -1,13 +1,17 @@
 ---
-date: 2020-01-02 00:00:00 +0900
-categories: "project",
-name: "골라",
-subject: "미니 게임 서비스",
-summary: "벌칙자, 팀원 배정 등 7개의 미니 게임이 포함된 서비스를 제작했습니다.",
-realization: y,
-link: "http://gola.egoist.im/",
-member: 2,
-duration: 2,
-team-name: "UN-DEVELOPER",
-team-img: ""
+date: "2020-01-02 00:00:00 +0900"
+category: "project"
+name: "골라"
+
+project:
+  subject: "미니 게임 서비스"
+  summary: "벌칙자, 팀원 배정 등 7개의 미니 게임이 포함된 서비스를 제작했습니다."
+  duration: 2
+  realization: y
+  link: "http://gola.egoist.im/"
+
+team:
+  name: "UN-DEVELOPER"
+  member: 2
+  logo: ""
 ---

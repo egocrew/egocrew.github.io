@@ -1,13 +1,17 @@
 ---
-date: 2021-01-03 00:00:00 +0900
-categories: "study",
-name: "TERA",
-subject: "개발 스터디",
-summary: "JPA 집중 학습을 통해 크루의 개발 역량을 강화했습니다.",
-realization: y,
-link: "",
-member: 3,
-duration: 2,
-team-name: "TERA",
-team-img: ""
+date: "2021-01-03 00:00:00 +0900"
+category: "study"
+name: "API 서버"
+
+project:
+  subject: "개발 스터디"
+  summary: "JPA 집중 학습을 통해 크루의 개발 역량을 강화했습니다."
+  duration: 2
+  realization: y
+  link: ""
+
+team:
+  name: "TERA"
+  member: 3
+  logo: ""
 ---

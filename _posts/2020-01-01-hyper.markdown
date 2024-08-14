@@ -1,13 +1,17 @@
 ---
-date: 2020-01-01 00:00:00 +0900
-categories: "project",
-name: "Hyper",
-subject: "스마트 북마크 서비스",
-summary: "단축키 이동, 위젯, 커스텀 테마 기능을 갖춘 시작페이지 서비스를 개발했습니다.",
-realization: y,
-link: "http://hyper.egoist.im",
-member: 2,
-duration: 3,
-team-name: "ENISA",
-team-img: ""
+date: "2020-01-01 00:00:00 +0900"
+category: "project"
+name: "Hyper"
+
+project:
+  subject: "스마트 북마크 서비스"
+  summary: "단축키 이동, 위젯, 커스텀 테마 기능을 갖춘 시작페이지 서비스를 개발했습니다."
+  duration: 3
+  realization: y
+  link: "http://hyper.egoist.im/"
+
+team:
+  name: "ENISA"
+  member: 2
+  logo: ""
 ---

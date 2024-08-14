@@ -1,13 +1,17 @@
 ---
-date: 2013-01-02 00:00:00 +0900
-categories: "project",
-name: "Valley",
-subject: "개인 맞춤 매거진",
-summary: "영단어 회화, 3컷 만화 등 관심 뉴스 및 콘텐츠를 제공하는 맞춤형 매거진 서비스를 제작했습니다.",
-realization: y,
-link: "",
-member: 4,
-duration: 2,
-team-name: "ARKA TEAM 1st",
-team-img: ""
+date: "2013-01-02 00:00:00 +0900"
+category: "project"
+name: "Valley"
+
+project:
+  subject: "개인 맞춤 매거진"
+  summary: "영단어 회화, 3컷 만화 등 관심 뉴스 및 콘텐츠를 제공하는 맞춤형 매거진 서비스를 제작했습니다."
+  duration: 2
+  realization: y
+  link: ""
+
+team:
+  name: "ARKA TEAM 1st"
+  member: 4
+  logo: ""
 ---

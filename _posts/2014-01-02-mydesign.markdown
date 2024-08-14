@@ -1,13 +1,17 @@
 ---
-date: 2014-01-02 00:00:00 +0900
-categories: "study",
-name: "그리드 레이아웃",
-subject: "디자인 스터디",
-summary: "편집 디자인 역량 강화를 위한 집중적인 스터디를 진행했습니다.",
-realization: y,
-link: "",
-member: 6,
-duration: 3,
-team-name: "ARKA TEAM 2nd",
-team-img: ""
+date: "2014-01-02 00:00:00 +0900"
+category: "study"
+name: "그리드 레이아웃"
+
+project:
+  subject: "디자인 스터디"
+  summary: "편집 디자인 역량 강화를 위한 집중적인 스터디를 진행했습니다."
+  duration: 3
+  realization: y
+  link: ""
+
+team:
+  name: "ARKA TEAM 2nd"
+  member: 6
+  logo: ""
 ---

@@ -1,13 +1,17 @@
 ---
-date: 2012-01-01 00:00:00 +0900
-categories: "project",
-name: "씨익닷넷",
-subject: "유머 커뮤니티",
-summary: "다양한 카테고리로 스타일에 맞는 유머 콘텐츠를 공유할 수 있는 커뮤니티를 제작했습니다.",
-realization: y,
-link: "",
-member: 3,
-duration: 3,
-team-name: "NIA 3rd",
-team-img: ""
+date: "2012-01-01 00:00:00 +0900"
+category: "project"
+name: "씨익닷넷"
+
+project:
+  subject: "유머 커뮤니티"
+  summary: "다양한 카테고리로 스타일에 맞는 유머 콘텐츠를 공유할 수 있는 커뮤니티를 제작했습니다."
+  duration: 3
+  realization: y
+  link: ""
+
+team:
+  name: "NIA 3rd"
+  member: 3
+  logo: ""
 ---

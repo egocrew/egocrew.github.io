@@ -1,13 +1,17 @@
 ---
-date: 2022-01-01 00:00:00 +0900
-categories: "project",
-name: "사색증후군",
-subject: "단편 에세이 집필",
-summary: "도서 리뷰, 토론, 음악 큐레이션, 인터뷰를 포스팅하여 깊이 있는 콘텐츠를 제공했습니다.",
-realization: y,
-link: "https://egocrew.tistory.com/",
-member: 2,
-duration: 3,
-team-name: "NOID",
-team-img: ""
+date: "2022-01-01 00:00:00 +0900"
+category: "project"
+name: "사색증후군"
+
+project:
+  subject: "단편 에세이 집필"
+  summary: "도서 리뷰, 토론, 음악 큐레이션, 인터뷰를 포스팅하여 깊이 있는 콘텐츠를 제공했습니다."
+  duration: 3
+  realization: y
+  link: "https://egocrew.tistory.com/"
+
+team:
+  name: "NOID"
+  member: 2
+  logo: ""
 ---

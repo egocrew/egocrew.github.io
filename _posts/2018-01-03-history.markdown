@@ -1,13 +1,17 @@
 ---
-date: 2018-01-02 00:00:00 +0900
-categories: "project",
-name: "History",
-subject: "약속 관리 가계부",
-summary: "장소, 인원, 지출 방법 및 비용 등을 기록하여 리포트를 제공받는 가계부 서비스를 제작했습니다.",
-realization: y,
-link: "",
-member: 5,
-duration: 15,
-team-name: "ARKA TEAM 4th",
-team-img: ""
+date: "2018-01-03 00:00:00 +0900"
+category: "project"
+name: "History"
+
+project:
+  subject: "약속 관리 가계부"
+  summary: "장소, 인원, 지출 방법 및 비용 등을 기록하여 리포트를 제공받는 가계부 서비스를 제작했습니다."
+  duration: 15
+  realization: y
+  link: ""
+
+team:
+  name: "ARKA TEAM 4th"
+  member: 5
+  logo: ""
 ---

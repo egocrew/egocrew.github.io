@@ -1,13 +1,17 @@
 ---
-date: 2011-01-01 00:00:00 +0900
-categories: "project",
-name: "R.A.N.I.S",
-subject: "최적화 프로그램",
-summary: "원클릭으로 컴퓨터를 간편하게 최적화하는 배치 프로그램을 제작했습니다.",
-realization: y,
-link: "",
-member: 4,
-duration: 1,
-team-name: "NIA 2nd",
-team-img: ""
+date: "2010-01-02 00:00:00 +0900"
+category: "project"
+name: "R.A.N.I.S"
+
+project:
+  subject: "최적화 프로그램"
+  summary: "원클릭으로 컴퓨터를 간편하게 최적화하는 배치 프로그램을 제작했습니다."
+  duration: 1
+  realization: y
+  link: ""
+
+team:
+  name: "NIA 2nd"
+  member: 4
+  logo: ""
 ---

@@ -1,13 +1,17 @@
 ---
-date: 2017-01-01 00:00:00 +0900
-categories: "project",
-name: "OWAW",
-subject: "키워드 일기",
-summary: "키워드로 하루를 기록하고, 가상의 나무를 성장시키는 일기 서비스를 제작했습니다.",
-realization: y,
-link: "",
-member: 4,
-duration: 10,
-team-name: "ARKA TEAM 3rd",
-team-img: ""
+date: "2017-01-01 00:00:00 +0900"
+category: "project"
+name: "OWAW"
+
+project:
+  subject: "키워드 일기"
+  summary: "키워드로 하루를 기록하고, 가상의 나무를 성장시키는 일기 서비스를 제작했습니다."
+  duration: 10
+  realization: y
+  link: ""
+
+team:
+  name: "ARKA TEAM 3rd"
+  member: 4
+  logo: ""
 ---
