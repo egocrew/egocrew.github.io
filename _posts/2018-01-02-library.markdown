@@ -13,5 +13,5 @@ project:
 team:
   name: "ARKA TEAM 3rd"
   member: 2
-  logo: ""
+  logo: "/assets/img/ARKA TEAM 3rd.png"
 ---

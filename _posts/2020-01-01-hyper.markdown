@@ -13,5 +13,5 @@ project:
 team:
   name: "ENISA"
   member: 2
-  logo: ""
+  logo: "/assets/img/EGO ENISA.png"
 ---

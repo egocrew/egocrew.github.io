@@ -13,5 +13,5 @@ project:
 team:
   name: "NIA 3rd"
   member: 3
-  logo: ""
+  logo: "/assets/img/NIA 3rd.png"
 ---

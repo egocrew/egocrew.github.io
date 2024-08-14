@@ -13,5 +13,5 @@ project:
 team:
   name: "NOID"
   member: 2
-  logo: ""
+  logo: "/assets/img/EGO NOID.png"
 ---

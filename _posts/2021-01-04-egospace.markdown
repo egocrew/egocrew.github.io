@@ -13,5 +13,5 @@ project:
 team:
   name: "TERA"
   member: 3
-  logo: ""
+  logo: "/assets/img/EGO TERA.png"
 ---
