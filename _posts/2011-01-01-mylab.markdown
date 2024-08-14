@@ -1,0 +1,13 @@
+---
+date: 2011-01-01 00:00:00 +0900
+categories: "study",
+name: "i-Lab",
+subject: "논술 스터디",
+summary: "사설을 분석하고 요약하는 신문읽기 스터디를 진행했습니다.",
+realization: y,
+link: "",
+member: 4,
+duration: 6,
+team-name: "NIA 2nd",
+team-img: ""
+---

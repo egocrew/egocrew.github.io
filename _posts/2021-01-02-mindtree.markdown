@@ -1,10 +1,13 @@
 ---
 date: 2021-01-02 00:00:00 +0900
-categories: "study"
-name: "토론 스터디"
-summary: "사회 이슈에 대한 찬반토론"
-realization: y
-link: ""
-member: 2
-duration: 5
+categories: "study",
+name: "NOID",
+subject: "토론 스터디",
+summary: "사회 이슈에 대한 찬반 토론을 통해 깊이 있는 토론 활동을 진행했습니다.",
+realization: y,
+link: "",
+member: 2,
+duration: 5,
+team-name: "NOID",
+team-img: ""
 ---

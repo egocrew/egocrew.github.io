@@ -1,0 +1,13 @@
+---
+date: 2012-01-02 00:00:00 +0900
+categories: "project",
+name: "마니또닷넷",
+subject: "익명 커뮤니티",
+summary: "위로와 응원 등 다양한 감정 표현 기능을 갖춘 익명 커뮤니티를 제작했습니다.",
+realization: y,
+link: "",
+member: 3,
+duration: 2,
+team-name: "NIA 3rd",
+team-img: ""
+---

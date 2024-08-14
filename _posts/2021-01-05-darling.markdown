@@ -1,10 +1,13 @@
 ---
 date: 2021-01-05 00:00:00 +0900
-categories: "project"
-name: "Darling"
-summary: "커플을 위한 올인원 서비스"
-realization: y
-link: "https://apps.apple.com/kr/app/%EB%8B%AC%EB%A7%81/id1583530907"
-member: 4
-duration: 6
+categories: "project",
+name: "Darling",
+subject: "커플 앱",
+summary: "디데이, 장소 다이어리, 쿠폰, 위시리스트 등을 통합한 올인원 앱을 제작했습니다.",
+realization: y,
+link: "https://apps.apple.com/kr/app/%EB%8B%AC%EB%A7%81/id1583530907",
+member: 4,
+duration: 6,
+team-name: "DNA",
+team-img: ""
 ---

@@ -1,10 +1,13 @@
 ---
 date: 2021-01-04 00:00:00 +0900
-categories: "project"
-name: "EGO SPACE"
-summary: "업무와 회의가 연동되는 협업 툴"
-realization: y
-link: "https://space.ego.so"
-member: 3
-duration: 1
+categories: "project",
+name: "EGO SPACE",
+subject: "프로젝트 관리 서비스",
+summary: "메시지, 칸반보드, 업무 및 회의 참조 등 프로젝트 관리 기능을 제공하는 서비스를 제작했습니다.",
+realization: y,
+link: "https://space.ego.so",
+member: 3,
+duration: 1,
+team-name: "TERA",
+team-img: ""
 ---

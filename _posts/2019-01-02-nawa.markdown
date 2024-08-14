@@ -1,10 +1,13 @@
 ---
 date: 2019-01-02 00:00:00 +0900
-categories: "project"
-name: "나와"
-summary: "번개로 좋아하는 취미를 함께"
-realization: n
-link: ""
-member: 6
-duration: 4
+categories: "project",
+name: "나와",
+subject: "모임 중개 서비스",
+summary: "같은 취미를 가진 사람들을 연결하는 모임 서비스를 제작했습니다.",
+realization: n,
+link: "",
+member: 6,
+duration: 4,
+team-name: "DEV MONKEY",
+team-img: ""
 ---

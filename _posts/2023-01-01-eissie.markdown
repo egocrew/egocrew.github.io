@@ -1,10 +1,13 @@
 ---
 date: 2023-01-01 00:00:00 +0900
-categories: "project"
-name: "EGO In Site"
-summary: "크루의 모든 활동을 한곳에서"
-realization: n
-link: ""
-member: 4
-duration: 2
+categories: "project",
+name: "EGO In Site",
+subject: "맞춤형 협업 도구",
+summary: "크루의 모든 활동을 통합 관리할 수 있는 웹 사이트를 제작했습니다.",
+realization: n,
+link: "",
+member: 4,
+duration: 2,
+team-name: "DEV24",
+team-img: ""
 ---
